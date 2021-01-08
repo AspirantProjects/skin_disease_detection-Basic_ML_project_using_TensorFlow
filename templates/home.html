@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DermaPredictor</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Open+Sans">
+        <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="static/assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="static/assets/css/buttons.css">
+        <link rel="stylesheet" href="static/assets/css/style.css">
+        <link rel="stylesheet" href="static/assets/css/dropzone.css">
+        <link rel="stylesheet" href="static/assets/css/media-queries.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="static/assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="static/assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="static/assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="static/assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="static/assets/ico/apple-touch-icon-57-precomposed.png">
+
+    </head>
+
+    <body bgcolor="black">
+        <div class="row">
+            <div class="col-sm-10 offset-1">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a href="/logout"><button class="bbtn btn-primary btn-lg pull-right">Logout</button></a>
+        </nav>
+            </div>
+        </div>
+        <!-- Top content -->
+        <div class="top-content">
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div>
+                            <h1>DermaPredictor</h1>
+                            <div id="dropzone">
+                        <form action="upload" class="dropzone" id="demo-upload" style="border: none;">
+                        </form>
+                      </div>
+                      <form action="/display" style = "text-align:left; color:#000;">
+                        <input type="submit" class="btn btn-danger btn-lg" value="Analyze" />
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer>
+            
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12">
+	                    <div class="footer-copyright">
+	                    	&copy; Copyright 2019 DermaPredictor
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+        </footer>
+
+
+        <!-- Javascript -->
+        <script src="static/assets/js/jquery-1.10.2.min.js"></script>
+        <script src="static/assets/js/jquery.backstretch.min.js"></script>
+        <script src="static/assets/js/retina-1.1.0.min.js"></script>
+        <script src="static/assets/js/dropzone.js"></script>
+
+    </body>
+
+</html>
