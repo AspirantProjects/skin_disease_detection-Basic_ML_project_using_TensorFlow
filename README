@@ -2,7 +2,7 @@
 
 Steps to setup the project on the machine:
 
-Python 3.9v (must)
+Python 3.8v (must)
 python -m pip install keras (or) pip install keras
 python -m pip install flask
 python -m pip install gevent
