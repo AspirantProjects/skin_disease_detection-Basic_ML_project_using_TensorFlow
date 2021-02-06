@@ -21,4 +21,4 @@ It will run an server on http://localhost:5000/ portal
 If server runs fine, then enter email as: test@example.com and password as : password 
 Now you can able to test skin disease 
 
-Note: If you found import Error : DLL not found (kindly use py 3.9v)
+Note: If you found import Error : DLL not found (kindly use py 3.8v)
