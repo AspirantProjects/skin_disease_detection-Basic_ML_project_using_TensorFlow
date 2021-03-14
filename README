@@ -8,7 +8,7 @@ python -m pip install flask
 python -m pip install gevent
 python -m pip install pandas
 python -m pip install scikit-learn scipy matplotlib
-python -m pip install flask_security
+python -m pip install flask-security
 python -m pip install email-validator
 python -m pip install sqlalchemy
 python -m pip install opencv-python
